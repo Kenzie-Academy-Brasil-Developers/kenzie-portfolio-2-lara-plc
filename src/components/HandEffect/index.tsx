@@ -8,7 +8,7 @@ export const scaleUp = keyframes({
 });
 
 export const HandEffect = () => {
-  const hand: any = useRef(null);
+  const hand = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
