@@ -69,7 +69,7 @@ export const Project = (): JSX.Element => {
           </ProjectStack>
 
           <Text type="body1" color="grey2">
-            {repository.description.substring(0, 129)}
+            {repository.description}
           </Text>
           <ProjectLinks>
             <ProjectLink target="_blank" href={repository.git_url}>
